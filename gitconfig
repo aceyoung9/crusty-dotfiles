@@ -21,3 +21,6 @@
   ff = only
 [include]
   path = .gitconfig.local
+[user]
+	name = Alice the Guinea Pig
+	email = young.al@husky.neu.edu
