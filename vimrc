@@ -52,8 +52,8 @@ augroup vimrcEx
 augroup END
 
 " Softtabs, 2 spaces
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 
 " Display extra whitespace
