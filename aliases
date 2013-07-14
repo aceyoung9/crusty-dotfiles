@@ -36,3 +36,8 @@ alias z="zeus"
 
 # Include custom aliases
 [[ -f .aliases.local ]] && source ~/.aliases.local
+
+# the mess I added.
+alias -g chrome=google-chrome
+alias -g sublime=subl
+alias ...="../.."

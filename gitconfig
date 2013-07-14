@@ -17,10 +17,11 @@
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
+  editor = vim
 [merge]
   ff = only
 [include]
   path = .gitconfig.local
 [user]
-	name = Alice the Guinea Pig
+	name = Alice
 	email = young.al@husky.neu.edu
