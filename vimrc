@@ -51,7 +51,7 @@ augroup vimrcEx
   autocmd BufRead,BufNewFile *.md setlocal textwidth=80
 augroup END
 
-" Softtabs, 2 spaces
+" Softtabs, 4 spaces
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -69,9 +69,9 @@ if executable('ag')
 endif
 
 " Color scheme
-colorscheme github
-highlight NonText guibg=#060606
-highlight Folded  guibg=#0A0A0A guifg=#9090D0
+" With Solarized edits.
+set background=dark
+colorscheme solarized
 
 " Numbers
 set number
