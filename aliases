@@ -1,6 +1,3 @@
-# My Shit
-alias upDerp='scp -r ~/Playground/nuDemocrats-www/* democrats:~/wp-content/themes/Derp'
-
 # Unix
 alias tlf="tail -f"
 alias ln='ln -v'
@@ -45,3 +42,5 @@ alias -g eyed3=eyeD3
 alias -g chrome=google-chrome
 alias -g sublime=subl
 alias ...="../.."
+alias upDerp="scp -r ~/Playground/nuDemocrats-www/* democrats:~/wp-content/themes/Derp"
+
