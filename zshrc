@@ -67,5 +67,9 @@ setopt EXTENDED_GLOB
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
+# Ruby
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
