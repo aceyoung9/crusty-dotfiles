@@ -73,3 +73,5 @@ eval "$(rbenv init -)"
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+fortune | cowsay -t
