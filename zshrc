@@ -38,6 +38,7 @@ bindkey -s "^T" "^[Isudo ^[A" # "t" for "toughguy"
 setopt prompt_subst
 
 # prompt
+autoload -U colors && colors
 export PS1='%B%F{green}%n@%m %F{blue}%~ $ %f%b'
 
 # ignore duplicate history entries
@@ -68,8 +69,8 @@ setopt EXTENDED_GLOB
 [[ -f ~/.aliases ]] && source ~/.aliases
 
 # Ruby
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+# export PATH="$HOME/.rbenv/bin:$PATH"
+# eval "$(rbenv init -)"
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
