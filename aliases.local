@@ -1,2 +1,2 @@
-# Making the open command more minty-fresh
-alias -g sublime="open -a Sublime\ Text\ 2"
+#subl? really?
+alias -g sublime=subl
