@@ -40,7 +40,6 @@ alias z="zeus"
 # the mess I added.
 alias -g eyed3=eyeD3
 alias -g chrome=google-chrome
-alias -g sublime=subl
 alias ...="../.."
 alias upDerp="scp -r ~/Playground/nuDemocrats-www/* democrats:~/wp-content/themes/Derp"
 alias backupLR="rsync -asP --update /media/epsilon289/Puppy/Users/Gyarados/Pictures/Epsi\ LR\ Archive /media/epsilon289/bigpassport && rsync -asP --update /media/epsilon289/Puppy/Users/Gyarados/Pictures/Lightroom /media/epsilon289/bigpassport"
