@@ -23,5 +23,5 @@
 [include]
   path = .gitconfig.local
 [user]
-	name = Alice
+	name = Alice Young
 	email = young.al@husky.neu.edu
