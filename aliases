@@ -46,3 +46,4 @@ alias backupLR="rsync -asP --update /media/epsilon289/Puppy/Users/Gyarados/Pictu
 alias waving="sudo iwlist scanning | grep 'Quality\|ESSID\|Address'"
 alias ood="cd ~/Schoolwork/cs3500"
 alias logic="cd ~/Schoolwork/cs2800"
+alias sasquatch="sass --watch css/*.scss"
